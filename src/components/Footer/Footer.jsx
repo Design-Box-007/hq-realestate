@@ -36,7 +36,7 @@ const Footer = () => {
                 </div>
                 <div className='d-flex align-items-center gap-3'>
                     <a href='https://www.instagram.com/housingquest?igsh=MTZscXM4dGs1eG5jcA%3D%3D&utm_source=qr' target='_blank' ><img src={InstagramIcon} alt='instagram' width={20} height={20} /></a>
-                    <a href='https://wa.me/+971544040799' target='_blank' ><img src={WhatsappIcon} alt='Whatsapp' width={20} height={20} /></a>
+                    <a href='https://wa.me/+971566102017' target='_blank' ><img src={WhatsappIcon} alt='Whatsapp' width={20} height={20} /></a>
                     <a href='https://x.com/Hqrealestates' target='_blank' ><img src={MediumIcon} alt='Medium' width={20} height={20} /></a>
                     <img src={FacebookIcon} alt='Facebook' width={20} height={20} />
                     <a href='https://medium.com/@housingquestrealestates' target='_blank' ><img src={XIcon} alt='x' width={20} height={20} /></a>

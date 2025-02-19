@@ -84,7 +84,7 @@ const HeroSection = () => {
                         <div className='d-flex justify-content-between align-items-center'>
                             <span style={{ cursor: "pointer" }} onClick={() => handleScroll('contact')}>
                                 <LeftToRightReveal>
-                                <a className='text-decoration-none' href='https://wa.me/+971544040799' target='_blank' ><div className='hero-card'>
+                                <a className='text-decoration-none' href='https://wa.me/+971566102017' target='_blank' ><div className='hero-card'>
                                         <img src={WhatsappIcon} alt='CallIcon' width="48px" height="48px" /> Get in Touch
                                     </div></a>
                                 </LeftToRightReveal>

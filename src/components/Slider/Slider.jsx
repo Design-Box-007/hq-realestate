@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import move from "lodash-move";
-import PropertyImage1 from "../../assets/property/PropertyImage1.png";
-import PropertyImage2 from "../../assets/property/PropertyImage2.png";
-import PropertyImage3 from "../../assets/property/PropertyImage3.png";
+import PropertyImage1 from "../../assets/property/MaritimeDubai.jpg";
+import PropertyImage2 from "../../assets/property/DownTownDubai.jpg";
+import PropertyImage3 from "../../assets/property/PalmJumeirah.jpg";
 
 const CardStack = ({
   cardsData = [
-    { color: "#266678", image: PropertyImage1, name: "Mairitime City" },
+    { color: "#266678", image: PropertyImage1, name: " Maritime City" },
     { color: "#cb7c7a", image: PropertyImage2, name: "Downtown Dubai" },
     { color: "#36a18b", image: PropertyImage3, name: "Palm Jumeirah" },
     // { color: "#cda35f", image: PropertyImage1, name: "Card 4" },

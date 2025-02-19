@@ -65,7 +65,7 @@ const Home = () => {
             </div>
           </TopToBottomReveal>
 
-          <LeftToRightReveal>
+          {/* <LeftToRightReveal>
             <div>
               <div className='d-flex gap-3 align-items-center mt-4'>
                 <div className='about-profile-images'>
@@ -79,7 +79,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-          </LeftToRightReveal>
+          </LeftToRightReveal> */}
 
           <div className='row mt-5'>
             <div className='col-md-4'>
@@ -170,11 +170,11 @@ const Home = () => {
         </VisibleReveal>
 
         <CardStack
-          // colors={colors}
-          // cardWidth="90vw"
-          // cardHeight="90vh"
-          // cardOffset={12}
-          // scaleFactor={0.08}
+        // colors={colors}
+        // cardWidth="90vw"
+        // cardHeight="90vh"
+        // cardOffset={12}
+        // scaleFactor={0.08}
         />
         {/* <LeftToRightReveal> */}
         <h6 className='explore-subtitle'><span style={{ color: "var(--primary-color)" }}><GoDotFill size={24} /></span>Explore Our Advantages</h6>
@@ -228,9 +228,9 @@ const Home = () => {
         </div>
       </section>
 
-      <Assistance />
+      {/* <Assistance /> */}
 
-      <Testimonial />
+      {/* <Testimonial /> */}
 
       <section id='map' className='map'>
         <VisibleReveal>
