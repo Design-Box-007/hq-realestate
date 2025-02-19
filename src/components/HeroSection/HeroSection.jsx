@@ -6,7 +6,7 @@ import WhatsappIcon from '../../assets/icons/whatsappIcon.png'
 import logo from '../../assets/Housing-Quest-PNG.png'
 
 import ExploreIcon from '../../assets/icons/exploreImage.png'
-import HeroImage from '../../assets/heroImage.png'
+import HeroImage from '../../assets/HeroImage.png'
 import HomeIcon from '../../assets/icons/homeIcon.png'
 import DownloadIcon from '../../assets/icons/downloadIcon.png'
 import './HeroSection.css'
