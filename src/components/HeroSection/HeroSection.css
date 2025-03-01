@@ -78,6 +78,8 @@
 .hero-explore{
     font-size: 16px;
     margin: 0;
+    color: white;
+    text-decoration: none;
 }
 
 .hero-image-overlay{

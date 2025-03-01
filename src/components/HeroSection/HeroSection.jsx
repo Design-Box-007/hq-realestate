@@ -18,6 +18,8 @@ import LeftToRightReveal from '../LeftToRightReveal'
 import TopToBottomReveal from '../TopToBottomReveal'
 import RightToLeftReveal from '../RightToLeftReveal'
 
+import pdfFile from '../../assets/housing-quest-pitch.pdf';
+
 const HeroSection = () => {
     const [showMenu, setShowMenu] = useState(false);
 
@@ -60,11 +62,11 @@ const HeroSection = () => {
                                     </LeftToRightReveal>
 
                                     <ul className={`header-menu-items ${showMenu ? 'active' : ''}`}>
-                                        <li style={{ cursor: "pointer",marginBottom:"5px" }} onClick={() => handleScroll('home')}>Home</li>
-                                        <li style={{ cursor: "pointer",marginBottom:"5px" }} onClick={() => handleScroll('about')}>About</li>
-                                        <li style={{ cursor: "pointer",marginBottom:"5px" }} onClick={() => handleScroll('property')}>Property</li>
-                                        <li style={{ cursor: "pointer",marginBottom:"5px" }} onClick={() => handleScroll('service')}>Services</li>
-                                        <li style={{ cursor: "pointer",marginBottom:"5px" }} onClick={() => handleScroll('contact')}>Contact</li>
+                                        <li style={{ cursor: "pointer", marginBottom: "5px" }} onClick={() => handleScroll('home')}>Home</li>
+                                        <li style={{ cursor: "pointer", marginBottom: "5px" }} onClick={() => handleScroll('about')}>About</li>
+                                        <li style={{ cursor: "pointer", marginBottom: "5px" }} onClick={() => handleScroll('property')}>Property</li>
+                                        <li style={{ cursor: "pointer", marginBottom: "5px" }} onClick={() => handleScroll('service')}>Services</li>
+                                        <li style={{ cursor: "pointer", marginBottom: "5px" }} onClick={() => handleScroll('contact')}>Contact</li>
                                     </ul>
 
                                 </div>
@@ -84,7 +86,7 @@ const HeroSection = () => {
                         <div className='d-flex justify-content-between align-items-center'>
                             <span style={{ cursor: "pointer" }} onClick={() => handleScroll('contact')}>
                                 <LeftToRightReveal>
-                                <a className='text-decoration-none' href='https://wa.me/+971566102017' target='_blank' ><div className='hero-card'>
+                                    <a className='text-decoration-none' href='https://wa.me/+971563600699' target='_blank' ><div className='hero-card'>
                                         <img src={WhatsappIcon} alt='CallIcon' width="48px" height="48px" /> Get in Touch
                                     </div></a>
                                 </LeftToRightReveal>
@@ -94,8 +96,10 @@ const HeroSection = () => {
 
                                     <div className='hero-card'>
                                         <img src={ExploreIcon} alt='ExploreIcon' width="48px" height="48px" />
-                                        <p className='hero-explore'>Explore All<br />
-                                            Our Properties</p>
+                                        <a href={pdfFile} target='_blank' className='hero-explore'>
+                                            View Our<br />Portfolio
+                                        </a>
+
                                     </div>
                                 </LeftToRightReveal>
                             </div>

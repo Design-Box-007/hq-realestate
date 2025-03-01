@@ -7,8 +7,8 @@ import PropertyImage3 from "../../assets/property/PalmJumeirah.jpg";
 
 const CardStack = ({
   cardsData = [
-    { color: "#266678", image: PropertyImage1, name: " Maritime City" },
-    { color: "#cb7c7a", image: PropertyImage2, name: "Downtown Dubai" },
+    { color: "#266678", image: PropertyImage1, name: "Downtown Dubai" },
+    { color: "#cb7c7a", image: PropertyImage2, name: "Bluewaters Dubai" },
     { color: "#36a18b", image: PropertyImage3, name: "Palm Jumeirah" },
     // { color: "#cda35f", image: PropertyImage1, name: "Card 4" },
     // { color: "#747474", image: PropertyImage3, name: "Card 5" },
